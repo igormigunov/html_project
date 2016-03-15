@@ -1,0 +1,26 @@
+.right-panel{
+    background-color: #2a6496;
+    position: fixed;
+    right: 0;
+    bottom:0;
+    width: 20px;
+}
+.red{
+    color: red;
+}
+.green{
+    color: green;
+}
+.top-panel{
+    position: absolute;
+    top:5px;
+    left: 0;
+    right: 0;
+}
+.mtop10{
+    margin-top: 20px;
+}
+#userList{
+    height: calc(100vh - 300px);
+    overflow: auto;
+}
