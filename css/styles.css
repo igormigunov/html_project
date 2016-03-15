@@ -1,9 +1,17 @@
 .right-panel{
     background-color: #2a6496;
-    position: fixed;
-    right: 0;
-    bottom:0;
-    width: 20px;
+    width: 30px;
+}
+.right-panel > a{
+    display: block;
+    padding: 5px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+.right-panel > a:hover{
+    border-left: 3px solid green;
+    padding-left: 2px;
+    color: black;
 }
 .red{
     color: red;
@@ -11,16 +19,32 @@
 .green{
     color: green;
 }
-.top-panel{
-    position: absolute;
-    top:5px;
-    left: 0;
-    right: 0;
-}
 .mtop10{
     margin-top: 20px;
 }
 #userList{
-    height: calc(100vh - 300px);
+    height: calc(100vh - 370px);
     overflow: auto;
+}
+.all-content{
+    display: table;
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+}
+.all-content > div{
+    display: table-cell;
+}
+.panel{
+    margin-bottom: 0;
+}
+.tab-pane{
+    min-height: calc(100vh - 145px);
+}
+.top-panel{
+    position: absolute;
+    top: 15px;
+    left: 0;
+    right: 0;
+    font-size: 12px;
 }
